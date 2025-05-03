@@ -128,6 +128,7 @@ Complex[][] complexData = {
 };
 ComplexMatrix complexMatrix = new ComplexMatrix(complexData);
 complexMatrix.showMatrix();
+```
 Testes
 
 Contribuição
@@ -236,7 +237,8 @@ EngineeringUtils/
     <artifactId>LinAlg</artifactId>
     <version>1.0.0</version>
 </dependency>
-
+```
+```groovy
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -248,7 +250,8 @@ dependencyResolutionManagement {
 dependencies {
     implementation 'com.github.emilioheringer:LinAlg:Tag'
 }
-
+```
+```
 // Example using Matrix class
 double[][] data = {
     {1, 2},
@@ -264,7 +267,7 @@ Complex[][] complexData = {
 };
 ComplexMatrix complexMatrix = new ComplexMatrix(complexData);
 complexMatrix.showMatrix();
-
+```
 Tests
 Unit tests are included under the src/test directory to ensure the correctness of matrix operations, decompositions, and more.
 

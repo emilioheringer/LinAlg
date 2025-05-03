@@ -1,0 +1,82 @@
+package com.heringer.linalg;
+
+import com.heringer.Complex;
+
+public interface IComplexMatrix {
+
+    double[][] getReal();
+
+    double[][] getImag();
+
+    Complex[][] getMatrix();
+
+    int getRows();
+
+    int getColumns();
+
+    Complex get(int i, int j);
+
+    void showMatrix();
+
+    ComplexMatrix add(ComplexMatrix other);
+
+    ComplexMatrix subtract(ComplexMatrix other);
+
+    ComplexMatrix multiply(ComplexMatrix other);
+
+    ComplexMatrix inverse();
+
+    ComplexMatrix transpose();
+
+    void symetricalMatrix();
+
+    int rank();
+
+    static ComplexMatrix sum(ComplexMatrix a, ComplexMatrix b) {
+        return null;
+    }
+
+    static ComplexMatrix subtraction(ComplexMatrix a, ComplexMatrix b) {
+        return null;
+    }
+
+    static ComplexMatrix multiply(ComplexMatrix a, ComplexMatrix b) {
+        return null;
+    }
+
+    static ComplexMatrix I(int rows, int columns) {
+        return null;
+    }
+
+    static ComplexMatrix inverse(ComplexMatrix matrix) {
+        return null;
+    }
+
+    static ComplexMatrix transpose(ComplexMatrix matrix) {
+        return null;
+    }
+
+    static ComplexMatrix symetricalMatrix(ComplexMatrix matrix) {
+        return null;
+    }
+
+    static ComplexMatrix diagonalMatrix(ComplexMatrix matrix) {
+        return null;
+    }
+
+    static ComplexMatrix ortogonalMatrix(ComplexMatrix matrix) {
+        return null;
+    }
+
+    static ComplexMatrix cofatorMatrix(ComplexMatrix matrix) {
+        return null;
+    }
+
+    static ComplexMatrix multiplyByScalar(ComplexMatrix matrix, double scalar) {
+        return null;
+    }
+
+    static Complex determinant(ComplexMatrix matrix) {
+        return null;
+    }
+}

@@ -189,34 +189,34 @@ EngineeringUtils/
 ├── pom.xml
 ├── README.md
 ├── src/
-│   ├── main/
-│   │   └── java/
-│   │       └── com/
-│   │           └── heringer/
-│   │               ├── Main.java
-│   │               └── linalg/
-│   │                   ├── ComplexMatrix.java
-│   │                   ├── Decomposition.java
-│   │                   ├── Eigenvalues.java
-│   │                   ├── IComplexMatrix.java
-│   │                   ├── IDecomposition.java
-│   │                   ├── IEigenvalues.java
-│   │                   ├── IMatrix.java
-│   │                   ├── ISolvelinsys.java
-│   │                   ├── IVector.java
-│   │                   ├── IVectorSpace.java
-│   │                   ├── Matrix.java
-│   │                   ├── Solvelinsys.java
-│   │                   ├── Vector.java
-│   │                   └── VectorSpace.java
-│   └── test/
-│       └── java/
-│           └── com/
-│               └── heringer/
-│                   └── linalg/
-│                       ├── ComplexMatrixTest.java
-│                       ├── EigenvaluesTest.java
-│                       └── MatrixTest.java
+│ ├── main/
+│ │ └── java/
+│ │ └── com/
+│ │ └── heringer/
+│ │ ├── Main.java
+│ │ └── linalg/
+│ │ ├── ComplexMatrix.java
+│ │ ├── Decomposition.java
+│ │ ├── Eigenvalues.java
+│ │ ├── IComplexMatrix.java
+│ │ ├── IDecomposition.java
+│ │ ├── IEigenvalues.java
+│ │ ├── IMatrix.java
+│ │ ├── ISolvelinsys.java
+│ │ ├── IVector.java
+│ │ ├── IVectorSpace.java
+│ │ ├── Matrix.java
+│ │ ├── Solvelinsys.java
+│ │ ├── Vector.java
+│ │ └── VectorSpace.java
+│ └── test/
+│ └── java/
+│ └── com/
+│ └── heringer/
+│ └── linalg/
+│ ├── ComplexMatrixTest.java
+│ ├── EigenvaluesTest.java
+│ └── MatrixTest.java
 └── target/
 
 

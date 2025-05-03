@@ -660,11 +660,6 @@ public class Matrix implements IMatrix {
         return det;
     }
 
-    @Override
-    public Matrix add() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'add'");
-    }
 
    
 

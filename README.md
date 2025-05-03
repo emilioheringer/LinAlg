@@ -130,7 +130,8 @@ ComplexMatrix complexMatrix = new ComplexMatrix(complexData);
 complexMatrix.showMatrix();
 ```
 ## Documentação
-[Click Aqui](https://scintillating-cactus-3c954a.netlify.app/)
+Acesse a documentação clicando [aqui](https://scintillating-cactus-3c954a.netlify.app/)
+
 
 
 ## Testes
@@ -144,6 +145,8 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull re
 ## Autor
 
 Emílio Heringer
+## Site
+Você pode acessar meu site [clicando aqui](https://purovoodoo-tech.web.app/)
 
 ## Licença
 
@@ -282,7 +285,7 @@ complexMatrix.showMatrix();
 ```
 ## Documentation
 ## Documentação
-[Click here](https://scintillating-cactus-3c954a.netlify.app/)
+Access the documentation by clicking [aqui](https://scintillating-cactus-3c954a.netlify.app/)
 
 ## Tests
 
@@ -295,6 +298,9 @@ Contributions are welcome! Feel free to open issues and pull requests.
 ## Author
 
 Emílio Heringer
+
+## Site
+You can acess my site clicking [here](https://purovoodoo-tech.web.app/)
 
 ## License
 

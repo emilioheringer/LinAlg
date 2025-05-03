@@ -129,6 +129,9 @@ Complex[][] complexData = {
 ComplexMatrix complexMatrix = new ComplexMatrix(complexData);
 complexMatrix.showMatrix();
 ```
+## Documentação
+[Click Aqui](https://scintillating-cactus-3c954a.netlify.app/)
+
 
 ## Testes
 
@@ -277,6 +280,9 @@ Complex[][] complexData = {
 ComplexMatrix complexMatrix = new ComplexMatrix(complexData);
 complexMatrix.showMatrix();
 ```
+## Documentation
+## Documentação
+[Click here](https://scintillating-cactus-3c954a.netlify.app/)
 
 ## Tests
 

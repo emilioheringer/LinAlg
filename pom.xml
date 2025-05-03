@@ -7,34 +7,52 @@
     <groupId>com.github.emilioheringer</groupId>
     <artifactId>LinAlg</artifactId>
     <version>1.0.1</version>
-<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+    <packaging>jar</packaging>
+
+    <name>LinAlg</name>
+    <description>Biblioteca de Álgebra Linear em Java</description>
+    <url>https://github.com/emilioheringer/LinAlg</url>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-    <dependencies>
-    <!-- JUnit 5 (Jupiter) -->
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter</artifactId>
-        <version>5.10.0</version>
-        <scope>test</scope>
-    </dependency>
-    <dependency>
-    <groupId>org.ejml</groupId>
-    <artifactId>ejml-all</artifactId>
-    <version>0.43</version>
-</dependency>
-    <dependency>
-        <groupId>com.github.emilioheringer</groupId>
-        <artifactId>ComplexNumber</artifactId>
-        <version>1.0.0</version>
-	</dependency>
-</dependencies>
 
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <!-- JUnit 5 (Jupiter) -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.10.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- EJML: Efficient Java Matrix Library -->
+        <dependency>
+            <groupId>org.ejml</groupId>
+            <artifactId>ejml-all</artifactId>
+            <version>0.43</version>
+        </dependency>
+
+        <!-- Dependência de outro projeto no JitPack -->
+        <dependency>
+            <groupId>com.github.emilioheringer</groupId>
+            <artifactId>ComplexNumber</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
 </project>

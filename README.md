@@ -90,7 +90,7 @@ EngineeringUtils/
 <dependency>
     <groupId>com.github.emilioheringer</groupId>
     <artifactId>LinAlg</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
@@ -106,7 +106,7 @@ dependencyResolutionManagement {
 }
 
 dependencies {
-    implementation 'com.github.emilioheringer:LinAlg:Tag'
+    implementation 'com.github.emilioheringer:LinAlg:1.0.1'
 }
 ```
 
@@ -244,7 +244,7 @@ EngineeringUtils/
 <dependency>
     <groupId>com.github.emilioheringer</groupId>
     <artifactId>LinAlg</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
@@ -260,7 +260,7 @@ dependencyResolutionManagement {
 }
 
 dependencies {
-    implementation 'com.github.emilioheringer:LinAlg:Tag'
+    implementation 'com.github.emilioheringer:LinAlg:1.0.1'
 }
 ```
 
